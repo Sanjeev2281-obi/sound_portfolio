@@ -35,7 +35,7 @@ export default function Navbar() {
                 className="cursor-pointer hover:text-gray-500 transition"
               >
                 {item.name}
-                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
               </a>
             </li>
           ))}

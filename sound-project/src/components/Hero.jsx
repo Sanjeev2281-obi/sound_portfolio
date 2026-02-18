@@ -3,7 +3,7 @@ import main from "../assets/profile.jpeg"
 export default function Hero() {
 
   return (
-    <section className="min-h-screen flex items-center px-6 md:px-12 lg:px-20">
+    <section className="min-h-screen flex items-center px-6 mt-5 md:px-12 lg:px-20 ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
         <div className="order-2 md:order-1 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
@@ -20,7 +20,7 @@ export default function Hero() {
           </button></a>
         </div>
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
-          <div className="relative w-[290px] sm:w-[340px] md:w-[360px] lg:w-[420px] h-[360px] sm:h-[420px] md:h-[480px] lg:h-[520px] translate-x-2 md:translate-x-6">
+          <div className="relative w-72.5 sm:w-85 md:w-90 lg:w-105 h-90 sm:h-105 md:h-120 lg:h-130 translate-x-2 md:translate-x-6">
             <img
               src={main}
               alt="Artist"

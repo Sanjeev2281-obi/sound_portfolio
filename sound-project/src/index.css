@@ -1,13 +1,14 @@
 @import "tailwindcss";
-
 html {
   scroll-behavior: smooth;
+  
+}
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 @keyframes float {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
 }
