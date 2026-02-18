@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import p2 from "../assets/p2.jpeg"
+
 import p3 from "../assets/p3.jpeg"
 import p4 from "../assets/p4.jpeg"
 import p5 from "../assets/p5.jpeg"
@@ -9,7 +9,7 @@ import p8 from "../assets/p8.jpeg"
 import p9 from "../assets/p9.jpeg"
 import p10 from "../assets/p10.jpeg"
 
-const images = [p2, p3, p4, p5, p6, p7, p8, p9, p10]
+const images = [p3, p4, p5, p6, p7, p8, p9, p10]
 
 export default function Projects() {
   const [index, setIndex] = useState(0)
