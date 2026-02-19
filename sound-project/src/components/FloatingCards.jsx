@@ -48,7 +48,7 @@ export default function FloatingCards() {
                 key={index}
                 className="
                   bg-white rounded-3xl p-8
-                  shadow-sm border border-gray-200
+                  shadow-sm 
                   transition-all duration-500 ease-out
                   hover:-translate-y-3 hover:shadow-2xl
                 "

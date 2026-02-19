@@ -31,7 +31,7 @@ export default function Workshop() {
         <div className="relative pl-12">
 
           {/* LIGHT GRAY LINE */}
-          <span className="absolute left-3 top-0 h-full w-[2px] bg-gray-300"></span>
+          <span className="absolute left-3 top-0 h-full w-0.5 bg-gray-300"></span>
 
           <h2 className="text-4xl font-semibold mb-12">
             Workshops
@@ -104,7 +104,7 @@ export default function Workshop() {
           <img
             src={workshop}
             alt="Clay workshop"
-            className="w-full h-[420px] object-cover rounded-3xl shadow-lg"
+            className="w-full h-105 object-cover rounded-3xl shadow-lg"
           />
         </div>
 
