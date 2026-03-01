@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full">
         <div className="order-2 md:order-1 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
-            Souko Clay Studio.<br className="hidden md:block" /> Made with Care  
+            Souko Clay Creations.<br className="hidden md:block" /> Made with Care  
           </h1>
           <p className="mt-5 text-gray-600 max-w-md mx-auto md:mx-0 text-base md:text-lg">
             Each piece is carefully handcrafted with love and attention to detail. Slight variations make every product unique.
